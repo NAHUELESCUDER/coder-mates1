@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+// colores
+$color1: rgb(255, 174, 0); 
+
+//fonts
+$fonts: lobter;
+
+header {
+    nav{
+        background-color: $color1;
+        ul{
+            li{
+                color: black !important;
+                font-family: $fonts;
+            }
+        }
+    }
+}
