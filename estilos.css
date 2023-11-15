@@ -8,8 +8,15 @@ header nav {
   background-color: rgb(255, 174, 0);
 }
 header nav ul li {
-  color: black !important;
   font-family: lobter;
+  font-size: 25px;
+}
+
+main div {
+  font-family: lobter;
+}
+main div div {
+  background-image: url(img/imagejpg.webp);
 }
 
 /*# sourceMappingURL=estilos.css.map */

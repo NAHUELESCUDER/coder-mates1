@@ -17,9 +17,19 @@ header {
         background-color: $color1;
         ul{
             li{
-                color: black !important;
-                font-family: $fonts;
+                font-family: lobter;
+                font-size: 25px;
             }
         }
     }
 }
+
+main {
+    div {
+        font-family: $fonts;
+        div{
+            background-image: url(img/imagejpg.webp);
+        }
+    }
+}
+
