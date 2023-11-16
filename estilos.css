@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Peralta&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -12,11 +13,46 @@ header nav ul li {
   font-size: 25px;
 }
 
-main div {
+main div h1 {
   font-family: lobter;
 }
-main div div {
-  background-image: url(img/imagejpg.webp);
+main div p {
+  font-style: inherit;
+}
+main h1 {
+  font-family: lobter;
+  text-align: center;
+  padding: 10px;
+}
+
+form {
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+}
+form fieldset {
+  display: grid;
+}
+form label {
+  width: 72px;
+  font-weight: bold;
+  display: inline-block;
+}
+form input {
+  width: 100%;
+  text-align: center;
+  padding: 8px 16px;
+  margin-top: 3px;
+  border: 1px solid #b3b1b1;
+  border-radius: 5px;
+  display: block;
+  color: #050505;
+  background-color: #f0eded;
+}
+
+.item1 {
+  background-image: url("./img/imagejpg.webp");
 }
 
 /*# sourceMappingURL=estilos.css.map */

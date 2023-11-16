@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Peralta&display=swap');
 
 * {
     padding: 0px;
     margin: 0px;
 }
 
+
+
+
 // colores
 $color1: rgb(255, 174, 0); 
 
 //fonts
 $fonts: lobter;
+$fonts2: peralta;
 
 header {
     nav{
@@ -26,10 +30,57 @@ header {
 
 main {
     div {
-        font-family: $fonts;
-        div{
-            background-image: url(img/imagejpg.webp);
+        
+        h1{
+            font-family:$fonts;
+        }
+
+
+        p {
+            font-style: inherit;
         }
     }
+
+    h1 {
+        font-family: $fonts;
+        text-align: center;
+        padding: 10px;
+    }
+
 }
 
+form {
+    width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+
+    fieldset {
+        display: grid;
+    }
+
+    label {
+        width:72px;
+        font-weight:bold;
+        display:inline-block; 
+    }
+
+    input {
+        width:100%;
+        text-align: center;
+        padding:8px 16px;
+        margin-top:3px;
+        border:1px solid #b3b1b1;
+        border-radius:5px;
+        display:block;
+        color:#050505;
+        background-color:#f0eded;
+    }
+
+
+
+}
+
+.item1 {
+    background-image: url("./img/imagejpg.webp");
+}
