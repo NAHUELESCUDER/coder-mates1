@@ -51,8 +51,35 @@ form input {
   background-color: #f0eded;
 }
 
+h2 {
+  text-align: center;
+  font-family: lobter;
+  font-size: 50px;
+}
+
+.item {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
 .item1 {
-  background-image: url("./img/imagejpg.webp");
+  background-image: url("./img/calabacita-yerba-mate-768x512.webp");
+}
+
+.item2 {
+  background-image: url("./img/delicious-terere-drink-still-life-scaled.jpg");
+}
+
+.item3 {
+  background-image: url("./img/mate1.jfif");
+}
+
+.item4 {
+  background-image: url("./img/mate2.jfif");
 }
 
 /*# sourceMappingURL=estilos.css.map */
