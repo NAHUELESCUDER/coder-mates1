@@ -91,20 +91,52 @@ h2{
     margin: 20px;
     display: flex;
     flex-direction: row;
+    
 }
 
 .item1 {
     background-image: url("./img/calabacita-yerba-mate-768x512.webp");
+    background-size: cover;
 }
 
 .item2 {
     background-image: url("./img/delicious-terere-drink-still-life-scaled.jpg");
+    background-size: cover;
 }
 
 .item3 {
     background-image: url("./img/mate1.jfif");
+    background-size: cover;
 }
 
 .item4 {
     background-image: url("./img/mate2.jfif");
+    background-size: cover;
+}
+
+.caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.caja2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 549px) {
+    .caja {
+        flex-direction: column;
+    }
 }
