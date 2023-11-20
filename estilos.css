@@ -331,6 +331,21 @@ h2 {
   color: #3498db;
 }
 
+footer {
+  background-color: #050505;
+  color: #ffa500;
+  padding: 10px;
+  text-align: center;
+}
+
+.boton {
+  background-color: #b3b1b1;
+  color: #f0eded;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+}
+
 @media screen and (min-width: 800px) and (max-width: 1023px) {
   .item {
     height: 39vh;
@@ -361,9 +376,6 @@ h2 {
     flex-wrap: wrap;
   }
   .contenedor3 {
-    flex-wrap: wrap;
-  }
-  .nosotros {
     flex-wrap: wrap;
   }
 }
