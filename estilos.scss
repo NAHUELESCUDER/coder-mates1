@@ -316,7 +316,6 @@ h2{
 .container {
     width: 100%;
     max-width: 1024px;
-    height: 430px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -326,7 +325,6 @@ h2{
 .container {
     .cards {
         width: 330px;
-        height: 430px;
         border-radius: 8px;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
         overflow: hidden;
@@ -368,7 +366,6 @@ h2{
     }
 }
 
-
 .container {
     .cards {
         a {
@@ -384,7 +381,6 @@ footer {
     color: #ffa500;
     padding: 10px;
     text-align: center;
-    
 }
 
 @mixin boton () {
