@@ -1,92 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Peralta&display=swap');
-
-* {
-    padding: 0px;
-    margin: 0px;
-}
 
 
+/*Header*/
+header nav {
+    background-color: $naranja;
 
-// colores
-$color1: rgb(255, 174, 0); 
+    a {
+        font-family: $fuente-principal;
+    }
 
-//fonts
-$fonts: lobter;
-$fonts2: peralta;
-
-header {
-    nav{
-        background-color: $color1;
-        ul{
-            li{
-                font-family: lobter;
-                font-size: 25px;
-            }
-        }
+    ul li {
+        font-family: $fuente-principal;
+        font-size: 25px;
     }
 }
 
 main {
     div {
-        
-        h1{
-            font-family:$fonts;
+        h1 {
+        font-family: $fuente-principal;
         }
 
-
         p {
-            font-style: inherit;
+        font-style: inherit;
         }
     }
 
     h1 {
-        font-family: $fonts;
+        font-family: $fuente-principal;
         text-align: center;
         padding: 10px;
     }
-
 }
 
 form {
-    width:300px;
-	padding:16px;
-	border-radius:10px;
-	margin:auto;
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
 
     fieldset {
         display: grid;
     }
 
     label {
-        width:72px;
-        font-weight:bold;
-        display:inline-block; 
+        width: 72px;
+        font-weight: bold;
+        display: inline-block;
     }
 
     input {
-        width:100%;
+        width: 100%;
         text-align: center;
-        padding:8px 16px;
-        margin-top:3px;
-        border:1px solid #b3b1b1;
-        border-radius:5px;
-        display:block;
-        color:#050505;
-        background-color:#f0eded;
+        padding: 8px 16px;
+        margin-top: 3px;
+        border: 1px solid #b3b1b1;
+        border-radius: 5px;
+        display: block;
+        color: #050505;
+        background-color: $blanco
     }
 }
 
-h2{
-    text-align: center;
-    font-family: $fonts;
-    font-size: 50px;
-}
-
+/*Index imagenes*/
 
 .item {
-    width: 57vh;
-    height: 37vh;
+    width: 35vh;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: contain;
     margin: 20px;
@@ -95,22 +74,22 @@ h2{
 }
 
 .item1 {
-    background-image: url("./img/calabacita-yerba-mate-768x512.webp");
+    background-image: url("../img/calabacita-yerba-mate-768x512.webp");
     background-size: cover;
 }
 
 .item2 {
-    background-image: url("./img/delicious-terere-drink-still-life-scaled.jpg");
+    background-image: url("../img/delicious-terere-drink-still-life-scaled.jpg");
     background-size: cover;
 }
 
 .item3 {
-    background-image: url("./img/mate1.jfif");
+    background-image: url("../img/mate1.jfif");
     background-size: cover;
 }
 
 .item4 {
-    background-image: url("./img/mate2.jfif");
+    background-image: url("../img/mate2.jfif");
     background-size: cover;
 }
 
@@ -121,13 +100,30 @@ h2{
     flex-wrap: wrap;
 }
 
-
 .caja2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
+.yerbas {
+    font-family: $fuente-principal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.yerbas {
+    .card {
+        margin-top: 20px;
+        margin-left:50px;
+        margin-bottom: 30px;
+        margin-right: 50px;
+    }
+}
+
+/*Servicios*/
 
 .contenedor {
     display: flex;
@@ -136,14 +132,20 @@ h2{
     overflow: scroll;
 }
 
-.img-txt{
+.contenedor {
+    p{
+        font-size: 25px;
+    }
+}
+
+.img-txt {
     font-size: 20px;
     width: 100%;
     padding: 10px;
 }
 
 .mate {
-    background-image: url("./img/Ibarra31-320x400.jpg");
+    background-image: url("../img/Ibarra31-320x400.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -158,8 +160,14 @@ h2{
     overflow: scroll;
 }
 
+.contenedor2 {
+    p{
+        font-size: 25px;
+    }
+}
+
 .mate2 {
-    background-image: url("./img/imagejpg.webp");
+    background-image: url("../img/imagejpg.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,14 +182,22 @@ h2{
     overflow: scroll;
 }
 
+.contenedor3 {
+    p{
+        font-size: 25px;
+    }
+}
+
 .mate3 {
-    background-image: url("./img/mate3.jpg");
+    background-image: url("../img/mate3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 450px;
     width: 100%;
 }
+
+/*Productos*/
 
 .productos {
     display: flex;
@@ -208,22 +224,22 @@ h2{
 }
 
 .img1 {
-    background-image: url("./img/imperial\ croco\ negro\ mate.jfif");
+    background-image: url("../img/imperial croco negro mate.jfif");
     background-size: cover;
 }
 
 .img2 {
-    background-image: url("./img/mate\ algarrobo.jfif");
+    background-image: url("../img/mate algarrobo.jfif");
     background-size: cover;
 }
 
 .img3 {
-    background-image: url("./img/mate\ metalico.jfif");
-    background-size:cover;
+    background-image: url("../img/mate metalico.jfif");
+    background-size: cover;
 }
 
 .img4 {
-    background-image: url("./img/mate\ torpedo\ imperial.jpeg");
+    background-image: url("../img/mate torpedo imperial.jpeg");
     background-size: cover;
 }
 
@@ -252,23 +268,25 @@ h2{
 }
 
 .set1 {
-    background-image: url("./img/sert\ matero\ afa.webp");
+    background-image: url("");
     background-size: cover;
 }
 
 .set2 {
-    background-image: url("./img/set\ matero\ camionero\ +\ termo.webp");
+    background-image: url("../img/set matero camionero + termo.webp");
     background-size: cover;
 }
+
 .set3 {
-    background-image: url("./img/set\ matero\ stanley.jfif");
+    background-image: url("../img/set matero stanley.jfif");
     background-size: cover;
 }
 
 .set4 {
-    background-image: url("./img/set\ matero\ uruguayo.webp");
+    background-image: url("../img/set matero uruguayo.webp");
     background-size: cover;
 }
+
 .productos3 {
     display: flex;
     align-items: center;
@@ -294,24 +312,26 @@ h2{
 }
 
 .bombilla1 {
-    background-image: url("./img/bombilla\ chata\ de\ acero.webp");
+    background-image: url("../img/bombilla chata de acero.webp");
     background-size: cover;
 }
 
 .bombilla2 {
-    background-image: url("./img/bombilla\ de\ alpaca.webp");
+    background-image: url("../img/bombilla de alpaca.webp");
     background-size: cover;
 }
 
 .bombilla3 {
-    background-image: url("./img/bombilla\ pico.jfif");
+    background-image: url("../img/bombilla pico.jfif");
     background-size: cover;
 }
 
 .bombilla4 {
-    background-image: url("./img/bombilla\ cuchara.webp");
+    background-image: url("../img/bombilla cuchara.webp");
     background-size: cover;
 }
+
+    /*Nosotros*/
 
 .container {
     width: 100%;
@@ -320,9 +340,6 @@ h2{
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-}
-
-.container {
     .cards {
         width: 330px;
         border-radius: 8px;
@@ -332,113 +349,46 @@ h2{
         text-align: center;
         transition: all 0.25s;
         margin-bottom: 30px;
-    }
-}
 
-.container {
-    .cards:hover {
+        &:hover {
         transform: translateY(-15px);
         box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-    }
-}
-
-.container {
-    
-    .cards {
+        }
         
-        img{
-            width: 330px;
-            height: 220px;
-        }
-    }
-}
-
-.container {
-
-    .cards {
-
-        p{
-            padding: 0 1rem;
-            font-size: 16px;
-            font-weight: 300;
+        img {
+        width: 330px;
+        height: 220px;
         }
 
-    }
-}
+        p {
+        padding: 0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+        }
 
-.container {
-    .cards {
         a {
-            font-weight:500;
-            text-decoration: none;
-            color:#3498db;
+        font-weight: 500;
+        text-decoration: none;
+        color: #3498db;
         }
     }
 }
 
+    /*Footer*/
 footer {
+    font-family: $fuente-principal;
     background-color: #050505;
-    color: #ffa500;
+    color: $naranja;
     padding: 10px;
     text-align: center;
 }
 
-@mixin boton () {
+    /*mixin*/
+
+.boton {
     background-color: #b3b1b1;
-    color: #f0eded;
+    color: $blanco;
     font-size: 15px;
     border-radius: 3px;
     border: none;
 }
-
-.boton {
-    @include boton 
-}
-
-
-
-@media screen and (min-width: 800px) and (max-width: 1023px) {
-
-    .item{
-        height: 39vh;
-        width: 3vw;
-    }
-}
-
-@media screen and (min-width: 550px) and (max-width: 799px) {
-
-    .item{
-        height: 40vh;
-        width: 40vw;
-    }
-
-    .caja{
-        flex-direction: column;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width: 549px) {
-
-    .item{
-        height: 45vh;
-        width: 80vw;
-    }
-
-    .caja{
-        flex-direction: column;
-    }
-
-    .contenedor {
-        flex-wrap: wrap;
-    }
-
-    .contenedor2 {
-        flex-wrap: wrap;
-    }
-
-    .contenedor3 {
-        flex-wrap: wrap;
-    }
-}
-
-
